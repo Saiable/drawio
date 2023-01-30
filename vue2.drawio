@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T08:20:55.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="uJK8tVQQ7m8u93g-MzYm" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:21:38.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="lVqXj5eqiv5uKQGumfr7" version="20.8.13" type="github" pages="2">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1941" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-58" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.向外导出initMixin方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="20" y="40" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-68" value="1.将用户的options挂载到Vue实例的$options属性上" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-68" value="1.获取到Vue实例&lt;br&gt;2.将用户的options挂载到Vue实例的$options属性上" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="160" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-69" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.该方法在Vue的原型对象上，挂载&lt;/font&gt;_init和$mount方法" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T08:29:17.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="tHhOmy9SgbB7eV31I425" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:35:41.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="ozU17IfnA2msBTA7L41t" version="20.8.13" type="github" pages="3">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="2138" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,13 +66,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TKkkIiQLYz8KY9i0Xku3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="590" height="350" as="geometry" />
+          <mxGeometry x="70" y="40" width="820" height="350" as="geometry" />
         </mxCell>
         <mxCell id="TKkkIiQLYz8KY9i0Xku3-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;state.js&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="70" y="40" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TKkkIiQLYz8KY9i0Xku3-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.将Vue作为实参传递给init.js中的initMixin方法&lt;br&gt;2.调用原型链上的_init方法，进行初始化&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="TKkkIiQLYz8KY9i0Xku3-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.初始化data配置项&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="220" y="40" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CvLAXiMEz-Q6KAT8feCy-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;initState&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Xv-2KzR5A_Y65Y4SmyU-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.根据传入的vm，初始化各种配置项&lt;br&gt;2.如果有data配置项，调用initData(vm)方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

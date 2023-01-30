@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T08:24:29.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="K4LijSzo_Qd-NyXXm2Vq" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:25:26.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="lqZ1bnBkVkGTft12dSzE" version="20.8.13" type="github" pages="3">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1941" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,58 +29,42 @@
     </mxGraphModel>
   </diagram>
   <diagram name="init.js" id="f7xJq4EvaZuQjRa25Gan">
-    <mxGraphModel dx="2138" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2418" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-27" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-140" y="460" width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-27">
-          <mxGeometry width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-5" value="index.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-27">
-          <mxGeometry x="10" y="10" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-50" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;1.调用init.js中的initMixin方法&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-27">
-          <mxGeometry x="10" y="30" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-40" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-140" y="690" width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-40">
-          <mxGeometry width="180" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-42" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;1.初始化数据&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-40">
-          <mxGeometry x="12" y="60" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="EU7Fr2xRHALKJtLmDJ7w-43" value="state.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="EU7Fr2xRHALKJtLmDJ7w-40">
-          <mxGeometry x="10" y="10" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="40" width="1050" height="350" as="geometry" />
+          <mxGeometry x="-780" y="60" width="1050" height="350" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-54" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;initMixin(Vue)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="100" width="150" height="50" as="geometry" />
+          <mxGeometry x="-430" y="120" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;_init&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="570" y="160" width="150" height="50" as="geometry" />
+          <mxGeometry x="-80" y="180" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-56" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;$mount&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="570" y="270" width="150" height="50" as="geometry" />
+          <mxGeometry x="-80" y="290" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-57" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;init.js&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="40" width="150" height="50" as="geometry" />
+          <mxGeometry x="-780" y="60" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-58" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.向外导出initMixin方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="200" height="110" as="geometry" />
+          <mxGeometry x="-630" y="60" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-68" value="1.获取到Vue实例&lt;br&gt;2.将用户的options挂载到Vue实例的$options属性上" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="160" width="200" height="110" as="geometry" />
+          <mxGeometry x="70" y="180" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-69" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.该方法在Vue的原型对象上，挂载&lt;/font&gt;_init和$mount方法" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="370" y="100" width="200" height="110" as="geometry" />
+          <mxGeometry x="-280" y="120" width="200" height="110" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vTeUxomEFzcgdJG0A9s1" name="state.js">
+    <mxGraphModel dx="1114" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

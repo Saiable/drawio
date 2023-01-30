@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T07:58:32.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="bjVPRN2nfFN3sJ-es0wH" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T07:59:13.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="d7PQAE99kh_W5_7btT46" version="20.8.13" type="github">
   <diagram name="第 1 页" id="f7xJq4EvaZuQjRa25Gan">
     <mxGraphModel dx="2418" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           <mxGeometry x="10" y="10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EU7Fr2xRHALKJtLmDJ7w-47" value="1.将用户的options挂载到Vue实例的$options属性上" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="410" y="40" width="290" height="60" as="geometry" />
+          <mxGeometry x="360" y="35" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:19:48.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="FbU-L1DcLyqkZKhknyqA" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:23:38.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="gCT-qTvTR-Ac58kc5oLe" version="20.8.13" type="github" pages="4">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1862" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
         <mxCell id="lJGvnAilfdp0WUhTJTLo-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;initData&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="420" y="210" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lJGvnAilfdp0WUhTJTLo-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.判断data类型（对象或函数）拿到data对象&lt;br&gt;2.将拿到的data存一份到vm._data上，这样data定义为响应式后，可以在vm实例上观测到&lt;br&gt;3.对data对象进行观测（使用observe(data)方法）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="lJGvnAilfdp0WUhTJTLo-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.判断data类型（对象或函数）拿到data对象&lt;br&gt;2.将拿到的data存一份到vm._data上，这样data定义为响应式后，可以在vm实例上观测到&lt;br&gt;3.对data对象进行观测（调用observe(data)方法）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="570" y="210" width="200" height="180" as="geometry" />
         </mxCell>
       </root>
@@ -112,7 +112,7 @@
         <mxCell id="8fxVYg9mG3dR0hLq3XC7-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;class Observer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="220" y="210" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8fxVYg9mG3dR0hLq3XC7-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.只对对象进行观测&lt;br&gt;2.新建Observer类进行观测&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="8fxVYg9mG3dR0hLq3XC7-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.定义walk方法，循环data对象，对属性依次劫持&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="370" y="210" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6Yydnyf5gp3Uwyg9GrCQ-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;defineReactive&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
@@ -122,10 +122,10 @@
           <mxGeometry x="370" y="320" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="efcpO7V1PLKSgYx6WRzL-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;walk(data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="570" y="160" width="150" height="50" as="geometry" />
+          <mxGeometry x="570" y="270" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="efcpO7V1PLKSgYx6WRzL-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.对传入的data对象，循环遍历key&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="160" width="200" height="110" as="geometry" />
+        <mxCell id="efcpO7V1PLKSgYx6WRzL-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.对传入的data对象，循环遍历key，并调用defineReactive方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

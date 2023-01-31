@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:37:43.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="mrWVDe9dHngMnUILGTNz" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:49:22.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="3zUakiClsopPZsxmt_Lf" version="20.8.13" type="github" pages="4">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1862" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="blK2cjFHddp4XoMVRWVK" name="observe/index.js">
-    <mxGraphModel dx="2084" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1707" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
         <mxCell id="Z7GHTMu4QC0YnQIws7Wu-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;observe(data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="220" y="100" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XMrZffcOoH1vLgpc4zRj-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.只对对象进行观测&lt;br&gt;2.新建Observer类进行观测&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="XMrZffcOoH1vLgpc4zRj-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.进行判断，只对对象进行观测&lt;br&gt;2.新建Observer类进行观测，new Observer(data)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="370" y="100" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="8fxVYg9mG3dR0hLq3XC7-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;class Observer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
@@ -124,8 +124,8 @@
         <mxCell id="6Yydnyf5gp3Uwyg9GrCQ-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;defineReactive&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="220" y="320" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="efcpO7V1PLKSgYx6WRzL-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.导出该方法，专门给对象的每个属性，设置getter、setter&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="370" y="320" width="200" height="110" as="geometry" />
+        <mxCell id="efcpO7V1PLKSgYx6WRzL-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.导出该方法，专门给对象的每个属性，设置getter、setter&lt;br&gt;2.参数分别为target对象、key以及对应的value&lt;br&gt;3.内部直接再次调用observe，如果对象存在嵌套，则value也会通过Observer类的walk方法对属性进行劫持&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="efcpO7V1PLKSgYx6WRzL-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;walk(data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="570" y="270" width="150" height="50" as="geometry" />

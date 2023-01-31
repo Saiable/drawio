@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:49:22.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="3zUakiClsopPZsxmt_Lf" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:56:38.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="yfQNRI5NC26tjMyNJz6u" version="20.8.13" type="github" pages="4">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1862" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0YpAO36Q8lXGC2CcJPdY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="40" width="1120" height="580" as="geometry" />
+          <mxGeometry x="-130" y="40" width="1120" height="750" as="geometry" />
         </mxCell>
         <mxCell id="0YpAO36Q8lXGC2CcJPdY-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;index.js&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="-130" y="40" width="150" height="50" as="geometry" />
@@ -122,16 +122,28 @@
           <mxGeometry x="370" y="210" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6Yydnyf5gp3Uwyg9GrCQ-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;defineReactive&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="320" width="150" height="50" as="geometry" />
+          <mxGeometry x="220" y="440" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="efcpO7V1PLKSgYx6WRzL-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.导出该方法，专门给对象的每个属性，设置getter、setter&lt;br&gt;2.参数分别为target对象、key以及对应的value&lt;br&gt;3.内部直接再次调用observe，如果对象存在嵌套，则value也会通过Observer类的walk方法对属性进行劫持&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="370" y="320" width="200" height="220" as="geometry" />
+          <mxGeometry x="370" y="490" width="200" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="efcpO7V1PLKSgYx6WRzL-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;walk(data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+        <mxCell id="efcpO7V1PLKSgYx6WRzL-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;constructor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="570" y="270" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="efcpO7V1PLKSgYx6WRzL-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.对传入的data对象，循环遍历key，并调用defineReactive方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+        <mxCell id="efcpO7V1PLKSgYx6WRzL-3" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.调用walk方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="270" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HFatEVNgGQH_DfAcKsvM-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;walk(data)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFatEVNgGQH_DfAcKsvM-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.对传入的data对象，循环遍历key，并调用defineReactive方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HFatEVNgGQH_DfAcKsvM-4" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="6Yydnyf5gp3Uwyg9GrCQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

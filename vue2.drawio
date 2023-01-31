@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:18:46.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="YoWcYFO1Fb1HGoiMZfa6" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:19:48.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="FbU-L1DcLyqkZKhknyqA" version="20.8.13" type="github" pages="4">
   <diagram id="bj8hy7L_tuFMwMWBdFSi" name="index.js">
     <mxGraphModel dx="1862" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="6Xv-2KzR5A_Y65Y4SmyU-1" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.根据传入的vm，初始化各种配置项&lt;br&gt;2.如果有data配置项，调用initData(vm)方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="570" y="100" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lJGvnAilfdp0WUhTJTLo-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;initState&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
+        <mxCell id="lJGvnAilfdp0WUhTJTLo-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;initData&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=center;" vertex="1" parent="1">
           <mxGeometry x="420" y="210" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lJGvnAilfdp0WUhTJTLo-2" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;1.判断data类型（对象或函数）拿到data对象&lt;br&gt;2.将拿到的data存一份到vm._data上，这样data定义为响应式后，可以在vm实例上观测到&lt;br&gt;3.对data对象进行观测（使用observe(data)方法）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;align=left;" vertex="1" parent="1">

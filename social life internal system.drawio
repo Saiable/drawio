@@ -1,14 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T03:00:43.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="UsLjzZtJPoAUS_N05T11" version="21.1.5" type="github" pages="6">
-  <diagram id="0tmmvUThTKmWr_leAzdm" name="平台">
-    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2023-04-12T06:15:36.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="eGQyN3tDm9q6RNdDIOf9" version="21.1.5" type="github" pages="6">
   <diagram name="标注侧" id="YAax4Ib2rblbw97E96Yk">
-    <mxGraphModel dx="765" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +34,14 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="0tmmvUThTKmWr_leAzdm" name="平台">
+    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="sKj-2CTDXvAZse3E1Smf" name="算法侧">
     <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UZ9wccwawinMBmHLIlsm" name="前端">
-    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

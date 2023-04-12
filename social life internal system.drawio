@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T08:49:56.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="5C0-jVwwXBISdxvcfIv-" version="21.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-12T08:53:05.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="xq9vCE4UgLqp9llChZTm" version="21.1.5" type="github" pages="6">
   <diagram name="标注侧" id="YAax4Ib2rblbw97E96Yk">
     <mxGraphModel dx="1600" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="DOrzI2ncTwfLIa81HKQh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DOrzI2ncTwfLIa81HKQh-10" target="DOrzI2ncTwfLIa81HKQh-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DOrzI2ncTwfLIa81HKQh-10" value="发送请求获取图片数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DOrzI2ncTwfLIa81HKQh-10" value="发送请求获取图片url" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-12" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -118,6 +118,13 @@
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-20" value="超过存储限制" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DOrzI2ncTwfLIa81HKQh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DOrzI2ncTwfLIa81HKQh-22" target="DOrzI2ncTwfLIa81HKQh-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="710" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-22" value="重新请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="810" width="120" height="60" as="geometry" />

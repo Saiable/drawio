@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T07:32:52.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="UNXZLpiWfPMG5dBg6EhF" version="21.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-13T07:33:37.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="dK63PX7dYZYLx30GsCWu" version="21.1.5" type="github" pages="6">
   <diagram name="标注侧" id="YAax4Ib2rblbw97E96Yk">
     <mxGraphModel dx="880" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint x="340" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOrzI2ncTwfLIa81HKQh-10" value="发送请求获取图片url" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="DOrzI2ncTwfLIa81HKQh-10" value="请求接口获取图片url" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-13" value="直接用本地" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -134,7 +134,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DOrzI2ncTwfLIa81HKQh-30" value="获取url接口数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="DOrzI2ncTwfLIa81HKQh-30" value="url接口数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="800" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-33" value="1.添加加载动画&lt;br&gt;2.基于el-image渲染" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T07:33:53.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="mYwB7QEFT7InLJwrRZuz" version="21.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-13T07:35:57.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="wGe2_V2-WkVerwScRGSH" version="21.1.5" type="github" pages="6">
   <diagram name="标注侧" id="YAax4Ib2rblbw97E96Yk">
     <mxGraphModel dx="880" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,8 +146,8 @@
         <mxCell id="DOrzI2ncTwfLIa81HKQh-36" value="获取成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="805" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOrzI2ncTwfLIa81HKQh-38" value="获取失败&lt;br&gt;1.重试，并提示&lt;br&gt;2.显示兜底图片" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="160" y="790" width="110" height="60" as="geometry" />
+        <mxCell id="DOrzI2ncTwfLIa81HKQh-38" value="获取失败&lt;br&gt;1.基于el-image回调重试，并提示&lt;br&gt;2.显示兜底图片" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="70" y="810" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

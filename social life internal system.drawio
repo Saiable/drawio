@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T07:40:44.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="MZVDGKmQZT7NYngLwwn-" version="21.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-13T08:06:18.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="K7Sjw9YsTQF6CI1D-def" version="21.1.5" type="github" pages="6">
   <diagram name="标注侧" id="YAax4Ib2rblbw97E96Yk">
     <mxGraphModel dx="880" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UZ9wccwawinMBmHLIlsm" name="前端">
-    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,9 +112,6 @@
         <mxCell id="DOrzI2ncTwfLIa81HKQh-19" value="初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="334" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOrzI2ncTwfLIa81HKQh-26" value="展示图片骨架图" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="800" as="sourcePoint" />
@@ -148,6 +145,9 @@
         </mxCell>
         <mxCell id="DOrzI2ncTwfLIa81HKQh-38" value="获取失败&lt;br&gt;1.基于el-image回调重试，并提示&lt;br&gt;2.显示兜底图片" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="810" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uw0mjo5URNsfaLpxlkcJ-1" value="右键菜单栏组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

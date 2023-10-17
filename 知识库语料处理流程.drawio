@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T08:10:09.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="FBwMVw6Hbh69crAt164V" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T08:15:48.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="17KeNk2VO3RtXa-85LnJ" version="22.0.4" type="github">
   <diagram name="第 1 页" id="OqdhAbVPGIW0M9Jp4voK">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,14 +52,26 @@
         <mxCell id="bVBkqluuAgwMRuoEYlJW-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="550" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-16" target="bVBkqluuAgwMRuoEYlJW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bVBkqluuAgwMRuoEYlJW-16" value="有案例的法律法规文件夹" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="180.94" width="120" height="68.12" as="geometry" />
         </mxCell>
         <mxCell id="bVBkqluuAgwMRuoEYlJW-20" value="问题：1.不能一级标题补全" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-19" target="bVBkqluuAgwMRuoEYlJW-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bVBkqluuAgwMRuoEYlJW-19" value="开源模型切分法律法规条目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-24" value="注意点：1.多个案例对应同一条法规，复制新纪录，uuid保持一致&lt;br&gt;2.一条切分后的法律法规，对应一个uuid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="610" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-22" value="根据切分后的law_item，补全对应法律条例的案例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

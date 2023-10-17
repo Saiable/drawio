@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T03:14:14.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="JzqXnubj4PKLY-ajooF2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T03:17:57.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="_GuO_dwfB9d61wjzWyoa" version="22.0.4" type="github">
   <diagram name="第 1 页" id="NaiW-HmVME8lXxUA8e3_">
     <mxGraphModel dx="1188" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,38 +22,16 @@
         <mxCell id="3V4c2zfvgddw5qwIzAxt-7" value="备份策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="235" y="620" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="670" width="300" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3V4c2zfvgddw5qwIzAxt-9" value="本机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="675" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3V4c2zfvgddw5qwIzAxt-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="230" width="260" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="440" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-14" value="docker安装包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="205" y="445" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-17" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="300" y="440" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3V4c2zfvgddw5qwIzAxt-17">
-          <mxGeometry width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-15" value="镜像安装包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3V4c2zfvgddw5qwIzAxt-17">
-          <mxGeometry x="5" y="5" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="440" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-20" value="容器安装包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="395" y="445" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3V4c2zfvgddw5qwIzAxt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.112;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3V4c2zfvgddw5qwIzAxt-12" target="3V4c2zfvgddw5qwIzAxt-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3V4c2zfvgddw5qwIzAxt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.112;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3V4c2zfvgddw5qwIzAxt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="480" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3V4c2zfvgddw5qwIzAxt-23" value="vscode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="250" width="65" height="20" as="geometry" />
@@ -68,10 +46,16 @@
           <mxGeometry x="402.5" y="270" width="65" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3V4c2zfvgddw5qwIzAxt-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3V4c2zfvgddw5qwIzAxt-28" value="挂载磁盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="320" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3V4c2zfvgddw5qwIzAxt-30" value="docker安装包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3V4c2zfvgddw5qwIzAxt-31" value="镜像、容器安装包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

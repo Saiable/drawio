@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T07:54:22.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" version="22.0.4" etag="5LJl3KjvvSKpspHE1fcF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T08:05:08.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="u3jQij6PWdZoT3FND3CQ" version="22.0.4" type="github">
   <diagram name="第 1 页" id="OqdhAbVPGIW0M9Jp4voK">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-1" value="法律法规库电子书" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-2" target="bVBkqluuAgwMRuoEYlJW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-2" target="bVBkqluuAgwMRuoEYlJW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-2" target="bVBkqluuAgwMRuoEYlJW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-2" value="已构建好的表文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-3" target="bVBkqluuAgwMRuoEYlJW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-3" value="实际案例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-4" target="bVBkqluuAgwMRuoEYlJW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-4" value="脱敏描述" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-6" value="对应法律条例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-8" target="bVBkqluuAgwMRuoEYlJW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-8" value="手动维护案例和条例都齐全的记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-10" value="得到法律文件名，维护文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-13" value="有案例没有法律文件的，需要爬取法规库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVBkqluuAgwMRuoEYlJW-15" target="bVBkqluuAgwMRuoEYlJW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="550" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bVBkqluuAgwMRuoEYlJW-16" value="有案例的法律法规文件夹" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="183.75" width="120" height="62.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T02:27:08.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="2MAvfCzkY06AysPCvLY2" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-18T02:31:46.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qFfs3eoNDYY27HT_HUWQ" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2015" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,8 +107,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <object label="&lt;font style=&quot;font-size: 14px;&quot;&gt;0006_01&lt;/font&gt;" desc="对提供的34份pdf合同单据，按照《单据提取要素说明20230505.xlsx》中的要，分成11类并合并成pdf" source_data_backup="1" id="StT641SL5eBHXtEgvzsc-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <object label="&lt;font style=&quot;font-size: 14px;&quot;&gt;0006_01&lt;/font&gt;" desc="对提供的34份pdf合同单据，按照《单据提取要素说明20230505.xlsx》中的要素，分成11类并合并成pdf" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="StT641SL5eBHXtEgvzsc-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
             <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
           </mxCell>
         </object>

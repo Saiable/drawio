@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T02:02:39.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="L9fAWjTC9_tPNYYBbY7k" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-18T02:27:08.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="2MAvfCzkY06AysPCvLY2" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
-    <mxGraphModel dx="2015" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M51Ywb6jcfcIUAWJpNEM-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="40" width="650" height="410" as="geometry" />
+          <mxGeometry x="-90" y="-80" width="900" height="530" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-1" target="w6IGviFwVEto-Zh0Qs4L-2">
           <mxGeometry relative="1" as="geometry" />
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-1" value="batch_readme" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-2" target="Vvjd4jgkAXSdjhMTovUW-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-2" value="background" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="184" y="90" width="120" height="60" as="geometry" />
@@ -44,18 +47,25 @@
         <mxCell id="Vvjd4jgkAXSdjhMTovUW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-8" target="Vvjd4jgkAXSdjhMTovUW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-8" target="Vvjd4jgkAXSdjhMTovUW-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="70" />
+              <mxPoint x="444" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-8" value="res_data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="384" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-11" value="rules" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="320" y="170" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M51Ywb6jcfcIUAWJpNEM-4" value="project_readme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="425" y="60" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M51Ywb6jcfcIUAWJpNEM-6" value="Different Task Collections" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="710" y="305" width="70" height="90" as="geometry" />
-        </mxCell>
+        <object label="Different Task Collections" tips="These are different types of explanatory documents, each containing the result path of the same type of annotation task. Users need to self retrieve according to the path.&#xa;If there is time in the later stage, you can write a script that periodically copies the same type of result files to the same directory according to the path. At this point, this documentation needs to be built into a JSON format file. But the relevant information for each result still needs to be read by the user themselves in the explanatory document" id="M51Ywb6jcfcIUAWJpNEM-6">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="670" y="305" width="70" height="90" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Vvjd4jgkAXSdjhMTovUW-1" value="each `input` folder" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="184" y="320" width="120" height="60" as="geometry" />
         </mxCell>
@@ -68,6 +78,27 @@
         <mxCell id="Vvjd4jgkAXSdjhMTovUW-6" value="backup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="270" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vvjd4jgkAXSdjhMTovUW-4" target="M51Ywb6jcfcIUAWJpNEM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="classify by type" tips="The result file of each task should ultimately be summarized by task type. The existing tasks include classification, feature annotation, image annotation, and other data.&#xa;The output folder only contains the results, but when using it later on, it is important to know the source files, annotation rules, etc. of each task, so that the user can view the corresponding documentation on their own" id="Vvjd4jgkAXSdjhMTovUW-10">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="530" y="320" width="120" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vvjd4jgkAXSdjhMTovUW-11" target="Vvjd4jgkAXSdjhMTovUW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="project_readme" tips="Summarizing the description of each subtask provides an overview of the overall situation. However, it is not possible to quickly clarify the connections and differences between each subtask. This requires additional effort to maintain the subtask associated nodes" id="Vvjd4jgkAXSdjhMTovUW-11">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="384" y="-50" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Relationship&lt;br&gt;node" tips="Describe the connections of each subtask" id="Vvjd4jgkAXSdjhMTovUW-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=14;rounded=0;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="660" y="-60" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>

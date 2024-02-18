@@ -1,24 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T01:56:41.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="9Gf2FnnxvBMKob-SYczR" version="23.1.5" type="github" pages="2">
-  <diagram name="第 1 页" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <object label="&lt;font style=&quot;font-size: 14px;&quot;&gt;0006_01&lt;/font&gt;" desc="对提供的34份pdf合同单据，按照《单据提取要素说明20230505.xlsx》中的要，分成11类并合并成pdf" id="StT641SL5eBHXtEgvzsc-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2024-02-18T02:02:39.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="L9fAWjTC9_tPNYYBbY7k" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2015" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M51Ywb6jcfcIUAWJpNEM-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="40" width="650" height="250" as="geometry" />
+          <mxGeometry x="-90" y="40" width="650" height="410" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-1" target="w6IGviFwVEto-Zh0Qs4L-2">
           <mxGeometry relative="1" as="geometry" />
@@ -27,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-1" value="batch_readme" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="-80" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-2" value="background" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="184" y="90" width="120" height="60" as="geometry" />
@@ -42,6 +29,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-4" target="Vvjd4jgkAXSdjhMTovUW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-4" value="origin_data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="184" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -51,10 +41,8 @@
             <mxPoint x="304" y="214.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M51Ywb6jcfcIUAWJpNEM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-8" target="M51Ywb6jcfcIUAWJpNEM-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="210" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w6IGviFwVEto-Zh0Qs4L-8" target="Vvjd4jgkAXSdjhMTovUW-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w6IGviFwVEto-Zh0Qs4L-8" value="res_data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="384" y="180" width="120" height="60" as="geometry" />
@@ -65,9 +53,34 @@
         <mxCell id="M51Ywb6jcfcIUAWJpNEM-4" value="project_readme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="425" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M51Ywb6jcfcIUAWJpNEM-6" value="Task Collection" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="650" y="165" width="70" height="90" as="geometry" />
+        <mxCell id="M51Ywb6jcfcIUAWJpNEM-6" value="Different Task Collections" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="710" y="305" width="70" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-1" value="each `input` folder" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="184" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-3" value="backup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-4" value="each `output` folder" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvjd4jgkAXSdjhMTovUW-6" value="backup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="第 1 页" id="x-HdFn6OZOIHSkUuv7J7">
+    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="&lt;font style=&quot;font-size: 14px;&quot;&gt;0006_01&lt;/font&gt;" desc="对提供的34份pdf合同单据，按照《单据提取要素说明20230505.xlsx》中的要，分成11类并合并成pdf" source_data_backup="1" id="StT641SL5eBHXtEgvzsc-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>

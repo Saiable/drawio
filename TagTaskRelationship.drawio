@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T09:44:49.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="wTWl8tjQOQJAUIcb94LC" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-19T09:53:19.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="joajOKp5OpG1cVKKxTX4" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2015" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
             <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="batch_02_苏粮合同造数据" desc="对提供的34份pdf合同单据，按照《单据提取要素说明20230505.xlsx》中的要素，分成11类并合并成pdf" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="mQEFmHZC5MSRD8egUmHX-3">
+        <object label="batch_02_苏粮合同造数据" desc="人工构建的19条结算方式数据，在labelstudio上标注。" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="mQEFmHZC5MSRD8egUmHX-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" parent="1" vertex="1">
             <mxGeometry x="210" y="210" width="120" height="60" as="geometry" />
           </mxCell>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T01:24:45.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0-qLV6_Fs8HYhefdIsM3" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T01:34:02.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="gq7sHjJADkXCM2IGSUUQ" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,11 @@
         <object label="Data" data="结算方式_原始语料.txt1（包含19条样例数据）&#xa;" id="D4fOOA_QwcEF3tuijRoo-4">
           <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
             <mxGeometry x="30" y="160" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data" data="省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_11-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_18-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_2-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_28-32-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_39-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_42-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-10-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_115-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_120-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_121-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_14-15-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_19-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_26-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_31-34-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_38-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_46-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_50-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_55-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-7-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_60-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_65-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_72-76-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_87-89-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_175-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_179-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_73-88-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_9-22-已转换.pdf1&#xa;" id="IvHwzYAmLtAUCpOVvl0P-1">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="30" y="280" width="40" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>

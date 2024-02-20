@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T02:32:06.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="OSyipGJIFCnuHsdEq2d3" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T02:51:26.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="HanrMmm0_CWBBQK8Zyrh" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 1 页" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="679" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
             <mxGeometry x="30" y="280" width="40" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="batch_03_要素提取校验" desc="人工构建的19条结算方式数据，在labelstudio上标注。" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="IvHwzYAmLtAUCpOVvl0P-3">
+        <object label="batch_04_苏粮合同表格语义标注" desc="导入ppcorlabel中，进行ocr识别，并根据算法需求进行核验&#xa;将图片导入labelstudio中标注QA关系" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="IvHwzYAmLtAUCpOVvl0P-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
             <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
           </mxCell>
@@ -154,7 +154,7 @@
         <mxCell id="IvHwzYAmLtAUCpOVvl0P-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IvHwzYAmLtAUCpOVvl0P-4" target="IvHwzYAmLtAUCpOVvl0P-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="Data" data="省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_11-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_18-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_2-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_28-32-已转换.pdf1&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_39-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_42-已转换.pdf1&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-10-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_115-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_120-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_121-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_14-15-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_19-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_26-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_31-34-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_38-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_46-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_50-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_55-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-7-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_60-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_65-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_72-76-已转换.pdf1&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_87-89-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_175-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_179-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_73-88-已转换.pdf1&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_9-22-已转换.pdf1&#xa;" id="IvHwzYAmLtAUCpOVvl0P-4">
+        <object label="Data" data="42份图片原始数据：&#xa;1_0.png&#xa;1_3.png&#xa;1_9.png&#xa;3_1.png&#xa;4_0.png&#xa;5_14.png&#xa;5_2.png&#xa;6_9.png&#xa;7_14.png&#xa;7_17.png&#xa;7_20.png&#xa;7_24.png&#xa;7_5.png&#xa;8_0.png&#xa;1_10.png&#xa;1_4.png&#xa;2_0.png&#xa;3_4.png&#xa;4_10.png&#xa;5_15.png&#xa;6_0.png&#xa;7_0.png&#xa;7_15.png&#xa;7_18.png&#xa;7_21.png&#xa;7_2.png&#xa;7_6.png&#xa;8_2.png&#xa;1_11.png&#xa;1_8.png&#xa;3_0.png&#xa;3_6.png&#xa;4_9.png&#xa;5_16.png&#xa;6_10.png&#xa;7_12.png&#xa;7_16.png&#xa;7_1.png&#xa;7_22.png&#xa;7_3.png&#xa;7_7.png&#xa;9_0.png" id="IvHwzYAmLtAUCpOVvl0P-4">
           <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
             <mxGeometry x="30" y="400" width="40" height="60" as="geometry" />
           </mxCell>

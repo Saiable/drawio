@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T00:55:09.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="nGImygQHhlBd_zzzn8W5" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-20T01:24:01.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="pu0bcx-r23k1CEqEiil0" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2015" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 1 页" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,6 +115,27 @@
         <object label="batch_02_苏粮合同造数据" desc="人工构建的19条结算方式数据，在labelstudio上标注。" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="mQEFmHZC5MSRD8egUmHX-3">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" parent="1" vertex="1">
             <mxGeometry x="130" y="160" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="batch_03_要素提取校验" desc="人工构建的19条结算方式数据，在labelstudio上标注。" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="D4fOOA_QwcEF3tuijRoo-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="130" y="280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="D4fOOA_QwcEF3tuijRoo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D4fOOA_QwcEF3tuijRoo-2" target="StT641SL5eBHXtEgvzsc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Data" data="源数据的文件名如下：&#xa;    0006_2023合同资料（10份）&#xa;        027.pdf&#xa;        030.pdf&#xa;        034.pdf&#xa;        013.pdf&#xa;        026.pdf&#xa;        028.pdf&#xa;        010.pdf&#xa;        037.pdf&#xa;        032.pdf&#xa;        020.pdf&#xa;        &#xa;    2023-4-28扫描（24份）&#xa;    &#x9;&#xa;        230428093614_0001.pdf&#xa;        230428104258_0001.pdf&#xa;        230424102710_0001.pdf&#xa;        230428094732_0001.pdf&#xa;        230427093411_0001.pdf&#xa;&#xa;        230428103217_0001.pdf&#xa;        230428102635_0001.pdf&#xa;        230428102406_0001.pdf&#xa;        230428102934_0001.pdf&#xa;        230428103353_0001.pdf&#xa;        230428103048_0001.pdf&#xa;        230428103247_0001.pdf&#xa;        230428102746_0001.pdf&#xa;        230428102527_0001.pdf&#xa;        230428103323_0001.pdf&#xa;        230428102817_0001.pdf&#xa;        230428102854_0001.pdf&#xa;        230428103121_0001.pdf&#xa;        230428102711_0001.pdf&#xa;        230428102603_0001.pdf&#xa;        230428102445_0001.pdf&#xa;        230428103014_0001.pdf&#xa;        230428103151_0001.pdf&#xa;        230424154039_0001.pdf" id="D4fOOA_QwcEF3tuijRoo-2">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="30" y="40" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="D4fOOA_QwcEF3tuijRoo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D4fOOA_QwcEF3tuijRoo-4" target="mQEFmHZC5MSRD8egUmHX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Data" data="结算方式_原始语料.txt1（包含19条样例数据）&#xa;" id="D4fOOA_QwcEF3tuijRoo-4">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="30" y="160" width="40" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>

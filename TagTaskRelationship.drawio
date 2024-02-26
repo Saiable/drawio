@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T02:20:37.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="VuoSAUC_qMADulhaMbvA" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-26T02:33:13.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Otkhyz29rVoeTD5t1BO-" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 1 页" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="396" dy="214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,6 +220,19 @@
         <object label="Data" data="- /input/（备份）板桥街道李山头组及长兴大街污水提升项目归档资料&#xa;- /input/苏粮第二批合同&#xa;- /input/苏粮纯合同&#xa;&#xa;- /input/语义实体表格数据00" id="IF6_CnJGs1LvnxqzKpzA-3">
           <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
             <mxGeometry x="610" y="520" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="batch_10_语义实体三批表格数据关系校验" desc="待完善" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="a9LGxmTTgsCj8eT_LgLy-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="710" y="390" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="a9LGxmTTgsCj8eT_LgLy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a9LGxmTTgsCj8eT_LgLy-3" target="a9LGxmTTgsCj8eT_LgLy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Data" data="待完善" id="a9LGxmTTgsCj8eT_LgLy-3">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="610" y="390" width="40" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>

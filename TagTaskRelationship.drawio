@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T00:54:06.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="WpRerdKt-AjGyzUSO75o" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-29T01:05:39.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="NBCyHeLgB4bw9_1aYTvw" version="23.1.5" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="0006" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,6 +248,21 @@
         <object label="Data" data="100-101.jpg&#xa;106.jpg&#xa;22-23.jpg&#xa;30-31.jpg&#xa;38-39.jpg&#xa;46-47.jpg&#xa;54-55.jpg&#xa;62-63.jpg&#xa;70-71.jpg&#xa;78-79.jpg&#xa;86-87.jpg&#xa;92-93.jpg&#xa;10-11.jpg&#xa;12-13.jpg&#xa;24-25.jpg&#xa;32-33.jpg&#xa;40-41.jpg&#xa;48-49.jpg&#xa;56-57.jpg&#xa;64-65.jpg&#xa;72-73.jpg&#xa;80-81.jpg&#xa;88-89.jpg&#xa;94-95.jpg&#xa;102-103.jpg&#xa;14-15.jpg&#xa;26-27 .jpg&#xa;34-35.jpg&#xa;42-43.jpg&#xa;50-51.jpg&#xa;58-59.jpg&#xa;66-67.jpg&#xa;74-75.jpg&#xa;82-83.jpg&#xa;8-9.jpg&#xa;96-97.jpg&#xa;104-105.jpg&#xa;16-17.jpg&#xa;28-29.jpg&#xa;36-37.jpg&#xa;44-45.jpg&#xa;52-53.jpg&#xa;60-61.jpg&#xa;68-69.jpg&#xa;76-77.jpg&#xa;84-85.jpg&#xa;90-91.jpg&#xa;98-99.jpg" id="a9LGxmTTgsCj8eT_LgLy-6">
           <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
             <mxGeometry x="30" y="770" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="batch_09_ocr结果校验" desc="一共两份文件夹，都是图片，使用`ppocrlabel`进行`ocr`，然后对结果进行校验修正" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="-syFN5wcdu7ahRPh2MOT-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="1000" y="520" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="-syFN5wcdu7ahRPh2MOT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-syFN5wcdu7ahRPh2MOT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Data" data="- /input/（备份）板桥街道李山头组及长兴大街污水提升项目归档资料&#xa;- /input/苏粮第二批合同&#xa;- /input/苏粮纯合同&#xa;&#xa;- /input/语义实体表格数据00" id="-syFN5wcdu7ahRPh2MOT-3">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="900" y="520" width="40" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T00:53:03.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_mDrtdmPYZPG8rEv3fmg" version="24.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-04T01:07:49.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Qqb10HZoE3gnNpqRN4_i" version="24.0.0" type="github" pages="2">
   <diagram id="3j2VqWWJuJk5JawI8i8B" name="构建逻辑">
     <mxGraphModel dx="2253" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="0006" id="x-HdFn6OZOIHSkUuv7J7">
-    <mxGraphModel dx="1188" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,6 +263,11 @@
         <object label="Data" data="微信图片_13_20230321133502-已转换.docx&#xa;微信图片_16_2023032113350135-已转换.docx&#xa;微信图片_186_2023032113350011-已转换.docx&#xa;微信图片_202303211334594-已转换.docx&#xa;微信图片_202303211334595-已转换.docx&#xa;微信图片_2023032113350015-已转换.docx&#xa;微信图片_2023032113350016-已转换.docx&#xa;微信图片_202303211335006-已转换.docx&#xa;微信图片_20230321133500-已转换.docx&#xa;微信图片_202303211335025-已转换.docx&#xa;微信图片_202303211335028-已转换.docx&#xa;微信图片_260_202303211334593-已转换.docx&#xa;微信图片_42_2023032113350117-已转换.docx&#xa;微信图片_46_2023032113350112-已转换.docx&#xa;微信图片_49_2023032113350110-已转换.docx&#xa;微信图片_62_20230321133501_A-已转换.docx&#xa;微信图片_65_2023032113350036-已转换.docx&#xa;微信图片_76_2023032113350028-已转换.docx&#xa;微信图片_99_2023032113350026-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_11-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_18-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_28-32-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_2-已转换.docx&#xa;省粮食集团2019年度大宗业务合同台账及胡永新关联企业业务合同扫描件_39-已转换.docx&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_23-已转换.docx&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_42-已转换.docx&#xa;省粮食集团2020年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-10-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_115-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_120-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_121-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_14-15-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_19-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_26-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_31-34-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_38-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_46-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_50-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_55-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_60-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_65-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_6-7-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_72-76-已转换.docx&#xa;省粮食集团2021年度大宗业务合同台账及胡永新关联企业业务合同扫描件_87-89-已转换.docx&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_175-已转换.docx&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_179-已转换.docx&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_43-已转换.docx&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_73-88-已转换.docx&#xa;省粮食集团2022年度大宗业务合同台账及胡永新关联企业业务合同扫描件_9-22-已转换.docx&#xa;" id="-syFN5wcdu7ahRPh2MOT-3">
           <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
             <mxGeometry x="900" y="520" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="batch_07_数据核验工具使用" desc="测试核验工具，记录反馈使用期间遇到的各种问题" source_data_backup="1" result_data_backup="1" task_collection="1" task_node="1" id="lUeKC0MUw9TaFV3rwlj_-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+            <mxGeometry x="420" y="650" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>

@@ -4,14 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MxzImj7wCzPGFJL9YipR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MxzImj7wCzPGFJL9YipR-1" target="MxzImj7wCzPGFJL9YipR-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MxzImj7wCzPGFJL9YipR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MxzImj7wCzPGFJL9YipR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MxzImj7wCzPGFJL9YipR-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;输入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MxzImj7wCzPGFJL9YipR-2" value="预处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="MxzImj7wCzPGFJL9YipR-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;预处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxzImj7wCzPGFJL9YipR-5" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;编写&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxzImj7wCzPGFJL9YipR-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;质检&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
